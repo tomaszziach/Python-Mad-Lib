@@ -1,0 +1,26 @@
+
+
+verb = input("Enter a verb: ")
+verb_two = input("Enter another verb: ")
+verb_ending_in_ing = input("Enter a verb ending in -ing: ")
+noun = input("Enter a noun: ")
+noun_two = input("Enter another noun: ")
+plural_noun = input("Enter a Plural noun: ")
+celebrity = input("Enter a celebrity: ")
+place = input("Enter a place: ")
+adjective = input("Enter an adjective: ")
+adjective_two = input("Enter another adjective: ")
+adjective_three = input("Enter another adjective: ")
+occupation = input("Enter an occupation: ")
+
+
+print("So you want to " + verb + " Pokemon, huh?")
+print("Well, its not as " + adjective + " as it seems.")
+print("You can catch Pokemon in the wild or in (the) " + place +".")
+print("Once you have a Charizard or a Blastoise, you'll need to gain its trust. That's not always easy. You can try feeding it or " + verb_ending_in_ing + " it,")
+print("but the best way to gain a Pokemon's trust is to " + verb_two + " with it.")
+print("Once you and your Pokemon are best " + plural_noun +", start training.")
+print("You can do this with a friend or even with " + celebrity + "at a/an" + adjective_two + " Gym nearby.")
+print("Think of it like training a/an " + noun+ "!")
+print("Only when you've trained enough should you challenge another " + occupation + " for real.")
+print("After all that work, it would be " + adjective_three + " for someone to come along and take your " + noun_two + " away!")
